@@ -1,0 +1,204 @@
+/*Navigation Bar*/
+header{
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  width: 20%;
+  padding:1%;
+}
+.nav{
+  display: inline-block;
+  width: 70%;
+  padding: 1%;
+}
+.nav ul li{
+  display:inline;
+  margin-left: auto;
+  padding: 8px;
+}
+.nav ul{
+  float: right;
+}
+
+  /*About Me*/
+  .heroImg {
+    height: 600px;
+    padding: 25px;
+  }
+  .content {
+    margin: 0 auto;
+    width: 750px;
+  }
+  .right {
+    float: right;
+    padding-right: 15px;
+  }
+
+    /*Case Studies*/
+.flexContainer {
+  display: flex;
+  width: 100%;
+  background-color:transparent;
+  margin: 0;
+  padding: 0;
+}
+.flex_item {
+  background-color: transparent;
+  flex-direction: column;
+  margin: 0;
+  padding: 10x;
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+.justifyContent {
+  justify-content: center;
+}
+img { 
+  max-width: 100%;
+  max-height: 100%;
+}
+#description {
+    position: relative;
+    left: 0;
+    bottom: 50px;
+  text-align: center;
+}
+.CaseStudies{
+  background-color:whitesmoke;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+    /*Skills and Tools*/
+
+.gridContainer {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  background-color: transparent;
+  grid-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "AI XD PS"
+  "Figma VS IV";
+}
+.gridArea {
+  margin: 10px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.gridContainer1{
+  display: grid;
+  grid-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 600px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas:
+  "research"
+  "testing"
+  "visual";
+}
+.grid-item {
+width: 150px;
+height: 150px;
+}
+.Skills {
+  background-color:whitesmoke;
+  width: inherit;
+  height: inherit;
+  padding: 0px;
+  margin: 5px;
+}
+.myTools {
+  background-color:whitesmoke;
+  padding: 0px;
+  margin: 5px;
+}
+.SkillsExperience {
+  background-color:whitesmoke;
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+    /*Footer*/
+  footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  background-color:#C4C4C4;
+  text-align: center;
+  }
+  footer ul li{
+    display: inline-block;
+    padding: 16px;
+  }
+    /*Web Style*/
+  h1 {
+    font-family: Cormorant, Bold;
+    font-size: 60px;
+    color:#A49393;
+  }
+  h3 {
+    font-family: Open Sans;
+
+  }
+  p {
+    font-family: Open Sans, regular;
+    font-size: 15px;
+  }
+  a {
+    font-family: Open Sans, regular;
+    color: gray;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  button {
+    font-family: Open Sans, Regular;
+    font-size: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+  }  
+  section {
+    padding: 0;
+    margin: 0;
+  }
+
+/*Media Query*/
+@media only screen and (max-width:600){
+  .flex-container {
+    flex-direction: column;
+  }}
+@media only screen and (max-width:600){
+  .gridContainer {
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "AI"
+    "XD"
+    "PS"
+    "Figma"
+    "VS"
+    "IV";
+  }
+  };
