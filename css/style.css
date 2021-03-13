@@ -148,6 +148,14 @@ height: 150px;
     display: inline-block;
     padding: 16px;
   }
+  #backtop {
+    font-family: Open sans, regular;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
     /*Web Style*/
   h1 {
     font-family: Cormorant, Bold;
