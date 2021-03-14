@@ -1,1 +1,6 @@
-console.log("Your index.js file is loaded correctly!");
+/*Console*/
+console.log('Your index.js file is loaded correctly!');
+
+
+/*Preloader*/
+$(.preloader).fadeOut('slow');

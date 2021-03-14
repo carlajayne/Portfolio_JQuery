@@ -3,13 +3,9 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <title>Carla Jayne Ramos</title>
-    <style>
-        @font-face {
-  font-family: Open Sans;
-  src: url(https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom#standard-styles);
-}
-
-    </style>
+    <!--Style Tags-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--End Style Tags-->
 </head>
 <body>
     <!-- Navigation -->
@@ -17,13 +13,12 @@
     <div class="logo">
           <img src="images/logo_2.png" width="75px" height="75px">
     </div>
-
     <div class="nav">
       <ul>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">RESUME</a></li>
-        <li><a href="#">CASE STUDIES</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="casestudies.html">CASE STUDIES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="https://docs.google.com/document/d/1Q8cBrltF35qJAb-zXMc60awHP8hutRlu6bZ5RbG4I0g/edit?usp=sharing">RESUME</a></li>
       </ul>
     </div>
 </header>
@@ -48,49 +43,51 @@
             <div class="justifyContent flexContainer">
                 <div class="flex_item">
                     <img src="images/travel_x_hp.png">
-                    <div id="description">
+                    <figcaption>
                     <h2>Travel X</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
-                    </div>
+                    </figcaption>
                 </div>
                 <div class="flex_item">
                     <img src="images/eplan_hp.png">
-                    <div id="description">
+                    <figcaption>
                     <h2>E-Plan</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
-                    </div></div>
+                    </figcaption></div>
                 <div class="flex_item">
                     <img src="images/pollution_probe_hp.png">
-                    <div id="description">
+                    <figcaption>
                     <h2>Pollution Probe</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
-                    </div></div>
+                    </figcaption></div>
                 </div>
             </div>
-            <h3 style="text-align: center"><a href="#">View All Case Studies</a></h3>
+            <h3 style="text-align: center"><a href="casestudies.html">View All Case Studies</a></h3>
         </section>
     <!-- End Case Studies -->
 
     <!-- Skills and Tools -->
     <section class="SkillsExperience">
-    <section class="Skills">
+<section class="Skills">
 <h1 style="text-align: center">Skills & Experiences</h1>
 <div class="mySkills gridContainer1">
-    <div class="gridArea" id="research">
+    <div class="grid-item1" id="research">
         <h2 style="text-align: left">User Research</h2>
         <p style="text-align: right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
     </div>
-    <div class="gridArea" id="testing">
+    <div class="grid-item1" id="testing">
         <h2 style="text-align: left">Usability Testing</h2>
         <p style="text-align: right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
     </div>
-    <div class="gridArea" id= "visual">
+    <div class="grid-item1" id= "visual">
         <h2 style="text-align: left">Visual Designs</h2>
         <p style="text-align: right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
     </div>
 </div>
 </section>
+    <!-- End Skills -->
 
+    <!--Tools -->
 <section class="myTools">
     <h1 style="text-align: center">Tools</h1>
     <div class="myTools gridContainer">
@@ -112,28 +109,34 @@
         <div class="grid-item" id="IV">
             <img src="images/invision.png" alt="Invision">
     </div></div>
-
-
 </section>
 </section>
-
-    <!-- End Skills and Tools -->
+    <!-- End Tools -->
 
     <!-- Footer -->
     <footer>
-        <h2 id="backtop">Back to Top</h2>
+       <h3 id="backtop"><a href="#">Back to Top</a></h3>
         <h1 style="text-align: center">Let's get in touch!</h1>
         <p>I am currently looking for opportunities in Product & Visual Design. Feel free to contact me to collaborate or even to chat over coffee Zoom!</p>
+        <button>Send an Email!</button>
             <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">RESUME</a></li>
-                <li><a href="#">CASE STUDIES</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="https://www.instagram.com/cjayne.designs/"><img src="images/socialmedia/025-instagram.png" width="80px" height="80px" atl="instagram"></a></li>
+                <li><a href="https://github.com/carlajayne"><img src="images/socialmedia/038-github.png" width="80px" height="80px" atl="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/carla-jayne-ramos-31b93017a/"><img src="images/socialmedia/045-linkedin.png" width="80px" height="80px" atl="Linkedin"></a></li>
             </ul>
     </footer>
     <!-- End Footer -->
-
+    
+    <!--Preloader-->
+    <div class="preloader">
+        <img src="http://cdn.onlinewebfonts.com/svg/img_511613.png">
+    </div>
+    <!-- End Preloader-->
+    
+    <!--Javascript Tags-->
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!--End Javascript Tags-->
 
 </body>
-<script src="js/index.js"></script>
 </html>
