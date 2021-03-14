@@ -237,7 +237,9 @@ figcaption {
   }
   .preloader img{
     animation: spin 3s ease;
+    transition: all;
     width: 150px;
+    margin: 0 auto;
   }
   @keyframes spin {
     0% {
