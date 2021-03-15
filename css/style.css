@@ -62,54 +62,33 @@ header{
   justify-content: center;
 }
 .flexContainer img { 
-  max-width: 100%;
-  max-height: 100%;
+  position: relative;
+  max-width: 400px;
+  max-height: 400px;
   margin: auto;
-  padding: 4px;
+  padding:  0px 20px 0;
 }
 figcaption {
     padding: 0.5em;
-    position: relative;
+    position: static;
     left: 0;
     text-align: center;
 }
 .CaseStudies{
   background-color:whitesmoke;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  align-content: center;
 }
 
     /*Skills&Tools Container*/
 .SkillsExperience {
   background-color:whitesmoke;
   margin: 10px;
+  padding: 0px;
   padding-bottom: 20px;
   padding-top: 20px;
-}
-    /*Tools*/
-.gridContainer {
-  display: grid;
   align-content: center;
-  justify-content: center;
-  width: 100%;
-  background-color: transparent;
-  grid-gap: 10px;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto;
-  grid-template-areas: 
-  "AI XD PS"
-  "Figma VS IV";
-}
-.grid-item img{
-  width: 100px;
-  height: 100px;
-}
-.myTools {
-  background-color:whitesmoke;
-  padding: 0px;
-  margin: 5px;
 }
     /*Skills*/
 .gridContainer1{
@@ -118,16 +97,16 @@ figcaption {
   justify-content: center;
   align-content: center;
   grid-template-columns: 600px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
   "research"
   "testing"
   "visual";
 }
 .grid-item1 {
-  margin: 10px;
+  margin: 0;
   background-color: transparent;
-  padding: 10px;
+  padding: 0px;
 }
 .Skills {
   background-color:whitesmoke;
@@ -136,29 +115,59 @@ figcaption {
   padding: 0px;
   margin: 5px;
 }
+    /*Tools*/
+    .gridContainer {
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      background-color: transparent;
+      grid-gap: 10px;
+      grid-template-rows: auto auto;
+      grid-template-columns: auto auto auto;
+      grid-template-areas: 
+      "AI XD PS"
+      "Figma VS IV";
+    }
+    .grid-item img{
+      width: 100px;
+      height: 100px;
+    }
+    .myTools {
+      background-color:whitesmoke;
+      padding: 0px;
+      margin: 0px;
+    }
+
+
     /*Footer*/
   footer {
-  position: relative;
-  width: 100%;
-  height: auto;
-  left: 0;
-  bottom: 0;
-  background-color:#C4C4C4;
-  text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 50px auto 75px;
+    background-color: #575858;
+    text-decoration-color: #eed6d3;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
   }
-  footer ul li{
+  #backtop {  
+    padding: 10px 25px 0; 
+    float: right;
+  }
+  footer ul li {
     display: inline-block;
-    padding: 16px;
+    align-content: space-between;
+    padding: 30px;
+  } 
+  #spill {
+    color: #eed6d3;
   }
-  #backtop a{
-    font-family: Open sans, regular;
-    font-size: 16px;
-    color: rgb(94, 94, 94);
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+  #getintouch{
+    text-align: center;
   }
+
+
     /*Web Style*/
   h1 {
     font-family: Cormorant, Bold;
@@ -194,11 +203,7 @@ figcaption {
   button:hover {
     background-color: rgb(35, 161, 161);
   } 
-  
-  section {
-    padding: 0;
-    margin: 0;
-  }
+
   body{
     height: 100vh;
     line-height: 1.6;
@@ -216,8 +221,7 @@ html {
 @media only screen and (max-width:600){
   }
   .gridContainer .gridContainer1 {
-    align-self: center;
-    justify-self: center;
+    align-content: center;
     grid-template-rows: 100 100 100 100 100 100;
     grid-template-columns: 1fr ;
     grid-template-areas: 
