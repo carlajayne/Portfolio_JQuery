@@ -84,13 +84,13 @@ figcaption {
     /*Skills&Tools Container*/
 .SkillsExperience {
   background-color:whitesmoke;
-  margin: 10px;
+  margin: 0px;
   padding: 0px;
   padding-bottom: 20px;
   padding-top: 20px;
   align-content: center;
 }
-    /*Skills*/
+                     /*Skills*/
 .gridContainer1{
   display: grid;
   grid-gap: 5px;
@@ -115,7 +115,7 @@ figcaption {
   padding: 0px;
   margin: 5px;
 }
-    /*Tools*/
+                         /*Tools*/
     .gridContainer {
       display: grid;
       align-content: center;
@@ -141,32 +141,30 @@ figcaption {
 
 
     /*Footer*/
+    #backtop { 
+      background-color:   #575858; 
+      padding: 10px 10px 0; 
+      position: static;
+      float: right;
+      width: auto;
+    }
   footer {
+
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     bottom: 0;
     width: 100%;
-    padding: 50px auto 75px;
+    padding: auto;
     background-color: #575858;
-    text-decoration-color: #eed6d3;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-  }
-  #backtop {  
-    padding: 10px 25px 0; 
-    float: right;
   }
   footer ul li {
     display: inline-block;
-    align-content: space-between;
     padding: 30px;
   } 
-  #spill {
+  .spill{
     color: #eed6d3;
   }
-  #getintouch{
-    text-align: center;
-  }
-
 
     /*Web Style*/
   h1 {
