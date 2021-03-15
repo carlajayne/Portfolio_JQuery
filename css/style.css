@@ -144,12 +144,14 @@ figcaption {
     #backtop { 
       background-color:   #575858; 
       padding: 10px 10px 0; 
-      position: static;
-      float: right;
-      width: auto;
+      position: absolute;
+      top:0;
+      right:0;
+      width: 200px;
+      text-align: right;
     }
   footer {
-
+    position: relative;
     justify-content: center;
     align-content: center;
     text-align: center;
