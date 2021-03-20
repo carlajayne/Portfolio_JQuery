@@ -45,12 +45,11 @@ header{
 .flexContainer {
   display: flex;
   width: 100%;
-  background-color:transparent;
-  margin: 0;
+  margin: 10px;
+  border: none;
   padding: 0;
 }
 .flex_item {
-  background-color: transparent;
   flex-direction: column;
   margin: 0;
   padding: 10x;
@@ -74,23 +73,7 @@ figcaption {
     left: 0;
     text-align: center;
 }
-.CaseStudies{
-  background-color:whitesmoke;
-  padding-bottom: 20px;
-  padding-top: 5px;
-  align-content: center;
-}
-
-    /*Skills&Tools Container*/
-.SkillsExperience {
-  background-color:whitesmoke;
-  margin: 0px;
-  padding: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  align-content: center;
-}
-                     /*Skills*/
+/*Skills*/
 .gridContainer1{
   display: grid;
   grid-gap: 5px;
@@ -105,17 +88,9 @@ figcaption {
 }
 .grid-item1 {
   margin: 0;
-  background-color: transparent;
   padding: 0px;
 }
-.Skills {
-  background-color:whitesmoke;
-  width: inherit;
-  height: inherit;
-  padding: 0px;
-  margin: 5px;
-}
-                         /*Tools*/
+/*Tools*/
     .gridContainer {
       display: grid;
       align-content: center;
@@ -133,33 +108,22 @@ figcaption {
       width: 100px;
       height: 100px;
     }
-    .myTools {
-      background-color:whitesmoke;
-      padding: 0px;
-      margin: 0px;
-    }
 
 
     /*Footer*/
-    #backtop { 
-      background-color:   #575858; 
-      padding: 10px 10px 0; 
-      position: absolute;
-      top:0;
-      right:0;
-      width: 200px;
-      text-align: right;
-    }
+
   footer {
-    position: relative;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
     text-align: center;
-    bottom: 0;
     width: 100%;
-    padding: auto;
+    margin: 50px auto 0;
+    border: none;
     background-color: #575858;
+    padding: 20px;
   }
+  .backtop {
+    float: right;
+}
   footer ul li {
     display: inline-block;
     padding: 30px;
@@ -169,6 +133,11 @@ figcaption {
   }
 
     /*Web Style*/
+    section {
+      margin: 20px;
+      border: none;
+      padding: 20px auto 20px;
+    }
   h1 {
     font-family: Cormorant, Bold;
     font-size: 60px;
@@ -204,10 +173,6 @@ figcaption {
     background-color: rgb(35, 161, 161);
   } 
 
-  body{
-    height: 100vh;
-    line-height: 1.6;
-}
 /*CSS Scroll Smooth*/
 html {
   scroll-behavior: smooth;
