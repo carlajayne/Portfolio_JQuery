@@ -1,2 +1,2 @@
-# UX_UI_HW_19
-Homework 19 - animation
+# Portfolio - JQuery/JavaScript 
+Created a homepage with adding in JavaScript and JQuery for animation
