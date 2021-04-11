@@ -19,7 +19,7 @@ Created a homepage with adding in JavaScript and JQuery for animation
 Results we are looking for:
 - Animations are working properly
 - Two animations that was chosen: Smooth Scrolling, Pre-Loader
-Tools Used:
+-- Tools Used:
 - Figma
 - VSCode
 - GitHub Desktop
